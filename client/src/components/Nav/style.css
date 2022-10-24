@@ -1,0 +1,38 @@
+@font-face {
+    font-family: MagicSparkle;
+    src: url(../../font/Magic\ Sparkle.ttf);
+}
+
+.button {
+    font-family: MagicSparkle;
+}
+
+#logo {
+    max-height: 175px;
+    margin: 30px;
+}
+
+.navbar {
+    background-color: rgb(253,252,248);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    font-size:  50px;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.navbar-item:hover {
+    font-size: 52px;
+}
+
+.transparent {
+    opacity: 1;
+}

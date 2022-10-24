@@ -1,0 +1,55 @@
+@font-face {
+    font-family: MagicSparkle;
+    src: url(./font/Magic\ Sparkle.ttf);
+}
+
+@font-face {
+    font-family: AndreaBellarosa;
+    src: url(./font/Andrea\ Bellarosa.ttf);
+}
+
+html {
+    background-color: rgb(253,252,248);
+}
+
+#root {
+    font-family: MagicSparkle;
+    margin: 0 50px;
+}
+
+.cursive {
+    font-family: AndreaBellarosa;
+    color: rgb(220,211,196);
+}
+
+.mainHeader {
+    margin-top: 60px;
+    font-size: 100px;
+    letter-spacing:0.4em;
+}
+
+.backHeaders {
+    position: relative;
+    font-size: 250px;
+    top: -300px;
+    left: -5px;
+    z-index: -1;
+    letter-spacing: 3px;
+}
+
+
+.collagePhoto {
+    width: 500px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.storyTitleBlock {
+    height: 850px;
+    width: 800px;
+    background-color: rgb(220,211,196);
+    clear: both;
+    font: MagicSparkle;
+    font-size: 150px;
+    justify-content: right;
+}
