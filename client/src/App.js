@@ -9,8 +9,12 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 import Home from '../src/pages/Home';
+import RSVP from '../src/pages/RSVP';
+import WeddingParty from '../src/pages/WeddingParty'
+import HotelandTravel from './pages/HotelandTravel';
 import Nav from '../src/components/Nav'
 import './index.css'
+import Logo from '../src/components/Logo'
 
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem('id_token');
@@ -48,23 +52,30 @@ function App() {
                 </Route>
                 <Route exact = 'true' path = '/RSVP' element = {
                   <div>
-                    <p>RSVP PAGE</p>
+                    <RSVP></RSVP>
                   </div>
                 }>
                 </Route>
                 <Route exact = 'true' path = '/HotelAndTravel' element = {
                   <div>
-                    <p>HOTEL AND TRAVEL PAGE</p>
+                    <HotelandTravel></HotelandTravel>
                   </div>
                 }>
                 </Route>
                 <Route exact = 'true' path = '/WeddingParty' element = {
                   <div>
-                    <p>WEDDING PARTY PAGE</p>
+                    <WeddingParty></WeddingParty>
+                  </div>
+                }>
+                </Route>
+                <Route exact = 'true' path = '/Registry' element = {
+                  <div>
+                    <WeddingParty></WeddingParty>
                   </div>
                 }>
                 </Route>
               </Routes>
+              <Logo></Logo>
           </div>
       </Router>
     </ApolloProvider>

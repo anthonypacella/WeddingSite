@@ -42,24 +42,30 @@ const Nav = () => {
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu is-flex">
+        <div id="" className="navbar-menu">
           <div className="navbar-start">
             <Link className='navbar-item' to="/RSVP">
               RSVP
             </Link>
 
-            <Link className='navbar-item' to="/HotelAndTrave">
-              Hotel and Travel
+            <Link className='navbar-item' to="/HotelAndTravel">
+              Hotel Block
             </Link>
 
-
+            {/* 
             <Link className='navbar-item' to="/WeddingParty">
-              Wedding Party
+              Wedding Partys
+            </Link> */}
+
+            {/* <a className = 'navbar-item' target="_blank" href="https://www.yahoo.com">
+              Registry
+            </a>           */}
+
+            <Link className='navbar-item' to="/Registry">
+              Registry
             </Link>
 
-            <a className = 'navbar-item' target="_blank" href="https://www.yahoo.com">
-              Registry
-            </a>          
+
           </div>
 
         </div>

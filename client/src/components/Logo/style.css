@@ -9,14 +9,12 @@
 
 #logo {
     max-height: 175px;
-    margin: 30px;
+    margin: auto;
+    margin-top: 75px;
 }
 
 .navbar {
     background-color: rgb(253,252,248);
-    width: 100%;
-    margin: auto;
-    display: flex;
 }
 
 .navbar-item {
@@ -31,10 +29,4 @@
 
 .transparent {
     opacity: 1;
-}
-
-.navbar-start {
-    margin: auto;
-    list-style-type: none;
-    display: flex;
 }

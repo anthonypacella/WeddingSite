@@ -7,7 +7,7 @@ import photo3 from '../images/image3.jpg';
 import photo4 from '../images/image4.jpg';
 import photo5 from '../images/image5.jpg';
 import photo6 from '../images/image6.jpg';
-
+import Hero from '../components/Hero';
 
 
 export default function Home() {
@@ -21,35 +21,47 @@ export default function Home() {
             <h1 className='cursive'>jaclyn&nbsp; anthony</h1>
           </div>
         </div>
-
+        
         <div className='container photoContainer'>
-          <div className = 'photo1Container'>
+          <figure className = 'image photo1Container'>
             <img className = 'collagePhoto photo1' src={photo1}></img>
-          </div>
-          <div className = 'photo2Container'>
+          </figure>
+          <figure className = 'image photo2Container'>
             <img className = 'collagePhoto photo2' src={photo2}></img>
-          </div>
-          <div className = 'photo3Container'>
+          </figure>
+          <figure className = 'image photo3Container'>
             <img className = 'collagePhoto photo3' src={photo3}></img>
-          </div>
-          <div className = 'photo4Container'>
+          </figure>
+          <figure className = 'image photo4Container'>
             <img className = 'collagePhoto photo4' src={photo4}></img>
-          </div>
-          <div className = 'photo5Container'>
+          </figure>
+          <figure className = 'image photo5Container'>
             <img className = 'collagePhoto photo5' src={photo5}></img>
-          </div>
-          <div className = 'photo6Container'>
+          </figure>
+          <figure className = 'image photo6Container'>
             <img className = 'collagePhoto photo6' src={photo6}></img>
-          </div>
+          </figure>
         </div>
 
-        <div>
-          <div className='container is-fullhd storyTitleBlock'>
-            A STORY TEN YEARS IN THE MAKING
+        <div className="columns storyContainer">
+          <div className="column">
+            <div className="box storyTitleBlock">
+              <span className = 'storyClass'></span>
+              <span className = 'storyClass'>
+                A STORY
+                <br></br>
+                TEN YEARS
+                <br></br>
+                IN THE
+                <br></br>
+                MAKING</span>
+            </div>
           </div>
-
-          <div>
-
+          <div className="column storyparagraphContainer">
+            <div className="">
+              <p className='title is-5'>A STORY TEN YEARS IN THE MAKING</p>
+              <p className='storyParagraph'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+            </div>
           </div>
         </div>
       </div>
