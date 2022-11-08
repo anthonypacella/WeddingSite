@@ -1,5 +1,5 @@
 {
-  "name": "deal-lifter",
+  "name": "wedding-website",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -24,6 +24,6 @@
     "nodemon": "^2.0.2"
   },
   "engines": { 
-    "node": "16.14.0"
+    "node": ">=16.13.1"
   }
 }

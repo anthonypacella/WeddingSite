@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.820c968f.chunk.css",
+    "main.js": "/static/js/main.7a330342.chunk.js",
+    "main.js.map": "/static/js/main.7a330342.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17ff492d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17ff492d.js.map",
+    "static/js/2.e12f5dc4.chunk.js": "/static/js/2.e12f5dc4.chunk.js",
+    "static/js/2.e12f5dc4.chunk.js.map": "/static/js/2.e12f5dc4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.820c968f.chunk.css.map": "/static/css/main.820c968f.chunk.css.map",
+    "static/js/2.e12f5dc4.chunk.js.LICENSE.txt": "/static/js/2.e12f5dc4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/FuturaLT-Light.141f7b20.woff",
+    "static/media/style.css": "/static/media/Magic Sparkle.a42de56f.ttf",
+    "static/media/image1.7d0a817a.jpg": "/static/media/image1.7d0a817a.jpg",
+    "static/media/image2.ae1f7a83.jpg": "/static/media/image2.ae1f7a83.jpg",
+    "static/media/image3.11c8d448.jpg": "/static/media/image3.11c8d448.jpg",
+    "static/media/image4.d240198d.jpg": "/static/media/image4.d240198d.jpg",
+    "static/media/image5.63e9a928.jpg": "/static/media/image5.63e9a928.jpg",
+    "static/media/image6.a146605a.jpg": "/static/media/image6.a146605a.jpg",
+    "static/media/logo.f9940753.png": "/static/media/logo.f9940753.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17ff492d.js",
+    "static/js/2.e12f5dc4.chunk.js",
+    "static/css/main.820c968f.chunk.css",
+    "static/js/main.7a330342.chunk.js"
+  ]
+}
